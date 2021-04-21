@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+}
+
+/* 3:5 Flag Rate === 60% 
+* Reference: https://en.wikipedia.org/wiki/Flag_of_Germany
+*/
+
+.flag-container::before {
+  content: "";
+  padding-top: 20%;
+  background-color: #000000;
+}
+
+.flag-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffcc00;
+  padding-bottom: 20%;
+  width: 100%;
+}
+
+.flag-container::after {
+  content: "";
+  padding-top: 20%;
+  background-color: #ff0000;
+}
