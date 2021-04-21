@@ -12,6 +12,7 @@ body {
 /* 3:5 Flag Rate === 60% 
 * Reference: https://en.wikipedia.org/wiki/Flag_of_Germany
 */
+
 .wrapper {
   display: flex;
   margin-top: 10px;
